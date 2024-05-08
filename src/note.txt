@@ -1,0 +1,44 @@
+//dogs
+
+Baxter
+Luna
+Cooper
+Bella
+Max
+Rosie
+Duke
+Sadie
+Murphy
+Ginger
+
+//cats
+
+Mochi
+Oliver
+Nala
+Simba
+Cleo
+Socks
+Pixel
+Willow
+Jasper
+Zoe
+
+//rabbits
+Thumper
+Clover
+Bun-Bun
+clover
+
+
+Welcome to our shelter, where each animal has a story 
+waiting to touch your heart. Meet Luna, the gentle Labrador 
+mix with soulful eyes that long for a forever home where she 
+can chase tennis balls and shower you with affection. 
+Then there's Max, the playful tabby cat who dreams of cozying up 
+on a sunny windowsill in a home filled with love and gentle scratches 
+behind the ears. And don't forget about Bailey, the energetic 
+Australian Shepherd mix who's always up for an adventure, whether 
+it's a hike in the woods or a game of fetch in the backyard. 
+These are just a few of the precious souls waiting to find their perfect match.
+Come meet them today and discover the joy of adoption!

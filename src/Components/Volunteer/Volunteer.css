@@ -1,0 +1,46 @@
+.volunteer {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    background-image: url('../../Assets/images/volunteer.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-left: 30px;
+}
+
+.volunteer-wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.volunteer-wrapper div{
+    width: 50%;
+}
+
+
+.volunteer p{
+    font-size: 20px;
+    padding: 30px 0;
+}
+
+.volunteer-form{
+    width: 100%;
+}
+
+.volunteer-form input{
+    width: 50%;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    background-color: var(--color-five);
+}
+
+.volunteer-form button{
+    margin-top: 10px;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--color-two);
+    color:#fff;
+}

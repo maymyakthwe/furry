@@ -1,0 +1,65 @@
+.service-intro{
+    padding: 20px 0;
+}
+
+.service-adopt{
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 60px;
+    background-color: var(--color-six);
+    box-shadow: 0 0px 10px 0px var(--color-two);
+    border-radius: 5px;
+    color: var(--color-one);
+}
+
+.service-adopt-intro p{
+    padding-top: 30px ;
+    font-size: 20px;
+}
+
+.service-adopt-intro{
+    margin-bottom: 10px;
+}
+
+.how-to-adopt{
+    padding-bottom: 20px ;
+}
+
+.how-to-adopt h3{
+    font-size: 22px;
+    padding: 20px 0;
+}
+
+.how-to-adopt p{
+    padding: 15px 25px;
+    font-size: 17px;
+}
+
+.how-to-adopt span{
+    font-weight: 600;
+}
+
+.how-to-adopt a{
+    color: inherit;
+    font-weight: 600;
+    padding: 0 10px;
+    text-decoration: underline;
+}
+
+.choose-pet{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-two);
+    align-items: center;
+    padding: 10px 20px;
+    color: var(--color-six);
+    border-radius: 3px;
+    font-size: 18px;
+}
+
+.choose-pet a{
+    padding: 10px 50px;
+    background-color: var(--color-six);
+    color: var(--color-two);
+    border-radius: 2px;
+}

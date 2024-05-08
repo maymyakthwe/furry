@@ -1,0 +1,43 @@
+.mission{
+    width: 100%;
+    padding: 50px 0;
+}
+
+.mission-headline{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 20px 0px;
+    text-shadow:3px 3px 1.5px var(--color-four);
+}
+
+.vision-wrapper,.mission-wrapper{
+    padding: 20px 10%;
+    width: 70%;
+    background-color: var(--color-five);
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+}
+
+.vision-wrapper h1,
+.mission-wrapper h1{
+    font-size: 28px;
+}
+
+.vision-details,.mission-details{
+    width: 50%;
+}
+
+.vision-image , .mission-image {
+    width: 50%;
+}
+
+.mission img{
+    width: 100%;
+}
+
+.mission-wrapper{
+    margin-left: 30%;
+}
+

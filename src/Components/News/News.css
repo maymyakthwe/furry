@@ -1,0 +1,40 @@
+.news{
+    padding: 50px 0;
+    width: 100%;
+    background-color: var(--color-four);
+    box-shadow: 0 0px 10px 0px var(--color-two);
+}
+
+.news h1{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 20px 0px;
+    text-shadow: 3px 3px 2px var(--color-five);
+}
+
+.news-wrapper{
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.each-news{
+    width:45%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+    background-color: var(--color-six);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0px 10px 0px var(--color-two);
+}
+
+.each-news img{
+    width: 20%;
+    border-radius: 4px;
+}
+
