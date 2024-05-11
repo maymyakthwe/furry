@@ -6,6 +6,7 @@ import Service from './Pages/ServicePage/Service';
 import Footer from './Components/Footer/Footer';
 import Adoption from './Components/Adoption/Adoption';
 import AdoptionPet from './Components/AdoptionPet/AdoptionPet';
+import AdminPage from './Pages/AdminPage/AdminPage';
 
 
 
@@ -19,6 +20,7 @@ function App() {
           <Route path='/services' element={<Service />} />
           <Route path='/services/adopt' element={<Adoption />} />
           <Route path='/services/adopt/00124' element={<AdoptionPet />} />
+          <Route path='/admin' element={<AdminPage />} />
         </Routes>
         <Footer/>
       </BrowserRouter>
