@@ -12,17 +12,16 @@ const ServiceFind = () => {
         <li><FaCheckCircle className='icon' /><p>Come visit our shelter in person. Our location is : <span> 123 Sesame Street, Wonderland, Neverland, NY 00000</span></p></li>
       </div>
 
-      <div className="lost-pet-form">
-        <form action="">
-          <div>
+      <div className="lost-pet-form form">
+          <div className="form-input">
             <label htmlFor="">Full Name:</label>
             <input type="text" placeholder='enter your full name' />
           </div>
-          <div>
+          <div className="form-input">
             <label htmlFor="">Phone Number:</label>
             <input type="text" placeholder='enter your phone number'/>
           </div>
-          <div>
+          <div className="form-input">
             <label htmlFor="">You Lost : </label>
             <select name="" id="">
               <option value="cat">Cat</option>
@@ -31,24 +30,23 @@ const ServiceFind = () => {
               <option value="bird">Bird</option>
             </select>
           </div>
-          <div>
+          <div className="form-input">
             <label htmlFor="">Breed:</label>
             <input type="text" placeholder="enter your pet's breed" />
           </div>
-          <div>
+          <div className="form-input">
             <label htmlFor="">Where did you lost your pet?</label>
             <input type="text" placeholder='enter the address'/>
           </div>
-          <div>
+          <div className="form-input">
             <label htmlFor="">When did you lost your pet?</label>
             <input type="text" placeholder='enter how long' />
           </div>
-          <div>
+          <div className="form-input">
             <label htmlFor="">Add More Details</label>
             <input type="text" placeholder='more details' />
           </div>
           <button>Submit</button>
-        </form>
       </div>
     </div>
   )

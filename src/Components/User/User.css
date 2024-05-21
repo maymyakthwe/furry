@@ -1,0 +1,102 @@
+.user{
+    width: 80%;
+        margin: 30px auto;
+        padding: 20px ;
+        background-color: var(--color-six);
+        box-shadow: 0 0px 10px 0px var(--color-two);
+        border-radius: 5px;
+        color: var(--color-one);
+        display: flex;
+}
+
+/* //sidebar */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:var(--color-six);
+    box-shadow: 0 0px 10px 0px var(--color-five);
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.sidebar-img img{
+    width: 60%;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.sidebar-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.sidebar-text div:nth-child(1){
+    font-weight: 600;
+}
+
+.sidebar-text div:nth-child(2) {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+div.sideMenu,button.sideMenu {
+    display: block;
+    color: #000;
+    padding: 16px;
+}
+
+button.sideMenu{
+    font-size: 16px;
+    text-align: left;
+    background-color: var(--color-six);
+    width: 100%;
+    border: none;
+}
+
+div.active,button.active {
+    background-color: var(--color-bg);
+    color: #fff;
+}
+
+.sideMenu:hover:not(.active),button.sideMenu:hover:not(.active) {
+    background-color: var(--color-bg);;
+    color: #fff;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar a {
+        float: left;
+    }
+
+    div.content {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}

@@ -33,9 +33,38 @@ div{
     --color-four:#b0ba99;
     --color-five: #d8ddcc;
     --color-six:#f2f5ee;
+    --color-bg:#6a6f73;
     
     --color-yellow:#fdcc70;
     --color-yellow-two:#fde4a8;
     --color-pink:#f78f9b;
     --color-blue:#5cd2d0;
+}
+
+
+/* //form */
+/* //form */
+/* //form */
+.form {
+    margin: 20px;
+    padding: 20px 40px;
+    border: 2px solid var(--color-two);
+    border-radius: 10px;
+}
+
+.form-input {
+    font-size: 20px;
+    padding: 10px 0px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-input input,
+.form-input select {
+    width: 300px;
+    padding: 5px 3px;
+    border: 1px solid var(--color-two);
+    border-radius: 3px;
+    margin-left: 20px;
 }

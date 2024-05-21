@@ -22,12 +22,13 @@
     align-items: center;
     font-size: 20px;
     font-weight: 600;
-    color: var(--color-one);
+    color: #000;
 }
 
 .nav-home img{
-    width: 100px;
+    width: 80px;
     cursor: pointer;
+    border-radius: 50%;
 }
 
 .nav-home p{
@@ -40,9 +41,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
 }
 
-.nav-links li{
+.nav-links button{
+    border: none;
+    background: transparent;
+}
+
+.nav-links a,.nav-links button{
     height: 80px;
     margin: 0px 5px;
     padding: 0 20px;
@@ -50,22 +57,102 @@
     font-size: 16px;
     font-weight: 500;
     align-content: center;
+    height: 100%;
+    color: #000;
 }
 
-.nav-links a{
-    color: var(--color-one);
+.nav-links button{
+    font-weight: 600;
+    cursor: auto;
 }
+
 
 .nav-links hr{
     opacity: 0;
     margin: 0;
 }
 
-.nav-links li:hover > hr {
+
+.nav-links a:hover > hr ,.nav-links button:hover>hr{
     display: block;
     opacity: 1;
     margin: 15px 0px;
     width: 100%;
     transition: all 0.5s;
+}
+
+/* //dropdown */
+
+.nav-name{
+    margin: 0px 20px;  
+}
+
+.dropdown-content{
+    width: 250px;
+    height: max-content;
+    background: var(--color-six);
+    display:none;
+    position: absolute;
+    top:100px;
+    transform: translateX(-30%);
+    box-shadow: 0 0px 5px 0px rgba(0, 0, 0,0.5);
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.profile-heading{
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.profile-heading img{
+    width: 30%;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
+.profile-heading-text,.profile-heading-text a{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-name a{
+    padding-bottom:5px ;
+    color: #000;
+    font-weight: 600;
+}
+
+.profile-email{
+    font-size: 12px;
+    font-weight: 300;
+    color: rgba(0, 0, 0,0.7);
+}
+
+.profile-section{
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.profile-link a{
+    color: #000;
+}
+
+.profile-link {
+    padding: 10px 0px;
+}
+
+.profile-logout button{
+    padding: 20px ;
+    cursor: pointer;
+    color: #000;
 }
 

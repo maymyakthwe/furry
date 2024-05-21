@@ -1,10 +1,198 @@
 .each-adoption-pet-wrapper{
     width: 80%;
     margin: 30px auto;
-    padding: 30px 60px;
+    padding: 30px 40px;
     background-color: var(--color-six);
     box-shadow: 0 0px 10px 0px var(--color-two);
     border-radius: 5px;
     color: var(--color-one);
+}
+
+.each-adoption-pet{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+}
+
+.pet-info h1{
+    padding-bottom: 20px;
+}
+
+.each-adoption-pet img{
+    width: 40%;
+    border-radius: 10px;
+}
+
+.pet-info{
+    padding-left:15px;
+}
+
+.pet-id{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.pet-id span{
+    font-weight: 500;
+}
+
+.adopt-me h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.adopt-me p{
+    font-size: 16px;
+}
+
+
+.adopt-process{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.adopt-process button{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--color-two);
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.adopt-suggestion p{
+    padding-bottom:10px ;
+}
+
+.adopt-suggestion span{
+    font-weight: 500;
+}
+
+
+/* //pop-up */
+
+.online{
+    padding: 10px;
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.visit,.online {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.4);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.pop-up-visit-content,.pop-up-online-content{
+    padding: 20px;
+    width: 600px;
+    height: max-content;
+    background-color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    color: var(--color-two);
+}
+
+.pop-up-online-content {
+    height: 500px;
+    overflow-y: auto;
+}
+
+.pop-up-online-content{
+    width: max-content;
+}
+
+.pop-up-visit-heading,.pop-up-online-heading{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.pop-up-visit-heading button,.pop-up-online-heading button{
+    border: none;
+    background-color: #fff;
+    color: var(--color-two);
+}
+
+
+.pop-up-visit-content p{
+    padding-top: 10px ;
+}
+
+.pop-up-visit-content span{
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.next,.submit{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.submit{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.next button,.submit button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: var(--color-two);
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.terms-cons{
+    margin: 10px 20px 20px 20px ;
+}
+
+.terms-cons-p,.terms-cons-points li{
+    width: 800px;
+}
+
+.terms-cons-radio{
+    margin-top: 20px;
+    font-size: 14px;
+    color: var(--color-four);
+    display: flex;
+    gap: 5px;
+}
+
+.terms-cons-points {
+    margin-top: 20px 0 ;
+}
+
+.terms-cons-points h4{
+    margin: 10px 0;
+}
+
+.terms-cons-points li{
+    list-style: square;
+}
+.terms-cons-points span{
+    font-weight: 500;
 }
 

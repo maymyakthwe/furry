@@ -1,6 +1,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from 'react'
 import './Adoption.css'
+import { Link } from 'react-router-dom'
 //import mochi from '../../Assets/images/adopt_Mochi.jpg'
 
 const Adoption = () => {
@@ -64,10 +65,10 @@ const Adoption = () => {
         
         <div className="adoption-filter-result">
           {pet.map((d, index) => {
-            return <a key={index} href='/services/adopt/00124' className="adoption-pet">
+            return <Link key={index} to={`/services/adopt/${d.pet_id}`} className="adoption-pet">
               <img src={d.pet_image} alt="" />
               <p>{d.pet_name}<span>{d.pet_id}</span></p>
-            </a>
+            </Link>
           })}
         </div>
     </div>

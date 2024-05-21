@@ -8,6 +8,7 @@
     font-size: 20px;
     gap: 10px;
     box-shadow: 0 0px 10px 0px var(--color-two);
+    color: #000;
 }
 
 .footer img{

@@ -1,49 +1,33 @@
-//dogs
+working on
+//user page
+//user ko props htae
+//click tk link pw mu t pee prop ko pyg
+//edit profile
+    
+front// '/' // 'service' // 'adoption' // 'adoption pet'// 'adoption form' //***
+admin//'petcreate'/**
+back// 
+    pet - /upload - (pet-img-upload)
+            - /admin/pets - (create pets) 
+            - /pets - (read all pets) 
+            - /pets/:petId (read one pet)
+    
+    user    -/signup (create user/return jwt)
+            -/login (read one user/compare /return jwt)
+            -/user/:userId (read one user/return user info)
 
-Baxter
-Luna
-Cooper
-Bella
-Max
-Rosie
-Duke
-Sadie
-Murphy
-Ginger
-
-//cats
-
-Mochi
-Oliver
-Nala
-Simba
-Cleo
-Socks
-Pixel
-Willow
-Jasper
-Zoe
-
-//rabbits
-Thumper
-Clover
-Bun-Bun
-clover
+    adoptionform - /adoptionForm (create adp form)
 
 
-Welcome to our shelter, where each animal has a story 
-waiting to touch your heart. Meet Luna, the gentle Labrador 
-mix with soulful eyes that long for a forever home where she 
-can chase tennis balls and shower you with affection. 
-Then there's Max, the playful tabby cat who dreams of cozying up 
-on a sunny windowsill in a home filled with love and gentle scratches 
-behind the ears. And don't forget about Bailey, the energetic 
-Australian Shepherd mix who's always up for an adventure, whether 
-it's a hike in the woods or a game of fetch in the backyard. 
-These are just a few of the precious souls waiting to find their perfect match.
-Come meet them today and discover the joy of adoption!
+notes***
+//revisit schemas
+//.populate
+//jwt sign/verify
+//edit profile / front end
+//user Update / back end
+
+//change state value from user(frontend) according to the link clicked from navbar profile links
+//example - click adoption - make adoption already selected in User page
 
 
-
-
-
+//change name User to User page (optional) **

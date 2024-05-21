@@ -6,7 +6,9 @@ import Service from './Pages/ServicePage/Service';
 import Footer from './Components/Footer/Footer';
 import Adoption from './Components/Adoption/Adoption';
 import AdoptionPet from './Components/AdoptionPet/AdoptionPet';
-import AdminPage from './Pages/AdminPage/AdminPage';
+import Login from './Components/Login/Login';
+import Signup from './Components/Signup/Signup';
+import User from './Components/User/User';
 
 
 
@@ -17,10 +19,13 @@ function App() {
         <Navbar/>
         <Routes>
           <Route path='/' element={<FrontPage />} />
+          <Route path='/login' element={<Login/>} />
+          <Route path='/signup' element={<Signup/>} />
           <Route path='/services' element={<Service />} />
           <Route path='/services/adopt' element={<Adoption />} />
-          <Route path='/services/adopt/00124' element={<AdoptionPet />} />
-          <Route path='/admin' element={<AdminPage />} />
+          <Route path='/services/adopt/:petId' element={<AdoptionPet />} />
+          <Route path='/user' element={<User />} />
+
         </Routes>
         <Footer/>
       </BrowserRouter>
